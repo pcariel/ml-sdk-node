@@ -22,7 +22,7 @@ export class MercadoLibre {
    */
   getAuthorizeUrl(state?: string): string {
     const query:string = qs.stringify({
-      client_id: this.config.appID,
+      client_id: this.config.clientId,
       redirect_uri: this.config.redirectUrl,
       response_type: 'code',
     });

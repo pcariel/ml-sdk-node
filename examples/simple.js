@@ -1,8 +1,8 @@
 const ml = require('../dist');
 
 const meli = new ml.MercadoLibre({
-  appID: '...',
-  appSecret: '...',
+  clientId: '...',
+  clientSecret: '...',
   redirectUrl: '...',
   country: ml.Country.Venezuela
 });

@@ -18,8 +18,8 @@ export class TokenService extends APIRequest implements IToken {
     const uri:string = `${URL_TOKEN}`;
     const options = {
       grant_type: 'authorization_code',
-      client_id: this.config.appID,
-      client_secret: this.config.appSecret,
+      client_id: this.config.clientId,
+      client_secret: this.config.clientSecret,
       code,
       redirect_uri: this.config.redirectUrl
     };

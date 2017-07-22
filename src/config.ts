@@ -30,9 +30,9 @@ export const HEADERS_DEFAULT = {
 
 export interface IConfig {
   // AppID is the applications' ID.
-  appID: string
+  clientId: string
   // AppSecret is the application's secret.
-  appSecret: string
+  clientSecret: string
   // RedirectURL is the URL to redirect users going through
   redirectUrl: string,
 

@@ -7,8 +7,8 @@ MercadoLibre API Library for Node.js
 const ml = require('ml-sdk-node');
 
 const meli = ml.MercadoLibre({
-  appID: '...',
-  appSecret: '...',
+  clientId: '...',
+  clientSecret: '...',
   redirectUrl: '...',
   country: ml.Country.Venezuela
 });
