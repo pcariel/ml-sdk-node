@@ -1,0 +1,27 @@
+{
+  "name": "ml-node-api",
+  "version": "1.0.0",
+  "description": "Mercadolibre API Client For Node.Js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "samples": ""
+  },
+  "dependencies": {
+    "cerialize": "^0.1.15",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "debug": "^2.6.8"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.2",
+    "@types/request": "^2.0.0",
+    "@types/request-promise-native": "^1.0.6",
+    "@types/debug": "^0.0.29"
+  },
+  "author": "Pablo Cariel <pablocariel@gmail.com>",
+  "license": "ISC"
+}
