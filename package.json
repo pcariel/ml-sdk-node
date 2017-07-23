@@ -10,7 +10,7 @@
     "samples": ""
   },
   "dependencies": {
-    "cerialize": "^0.1.15",
+    "class-transformer": "^0.1.7",
     "querystring": "^0.2.0",
     "request": "^2.81.0",
     "request-promise-native": "^1.0.4",
